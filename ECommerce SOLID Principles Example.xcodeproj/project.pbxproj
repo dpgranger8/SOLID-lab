@@ -17,6 +17,12 @@
 		7E11108E2A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11108D2A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleTests.swift */; };
 		7E1110982A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110972A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITests.swift */; };
 		7E11109A2A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110992A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITestsLaunchTests.swift */; };
+		7E1110A72A0E8EA6005E7DA4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110A62A0E8EA6005E7DA4 /* Product.swift */; };
+		7E1110AA2A0E8EF9005E7DA4 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110A92A0E8EF9005E7DA4 /* ShoppingCart.swift */; };
+		7E1110AC2A0E8F21005E7DA4 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110AB2A0E8F20005E7DA4 /* PaymentMethod.swift */; };
+		7E1110AE2A0E8F2E005E7DA4 /* CreditCardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110AD2A0E8F2E005E7DA4 /* CreditCardPayment.swift */; };
+		7E1110B02A0E8F4B005E7DA4 /* PaypalPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110AF2A0E8F4B005E7DA4 /* PaypalPayment.swift */; };
+		7E1110B22A0E8FF3005E7DA4 /* OrderProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1110B12A0E8FF3005E7DA4 /* OrderProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		7E1110932A0E8E91005E7DA4 /* ECommerce SOLID Principles ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ECommerce SOLID Principles ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1110972A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerce_SOLID_Principles_ExampleUITests.swift; sourceTree = "<group>"; };
 		7E1110992A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerce_SOLID_Principles_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E1110A62A0E8EA6005E7DA4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7E1110A92A0E8EF9005E7DA4 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		7E1110AB2A0E8F20005E7DA4 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		7E1110AD2A0E8F2E005E7DA4 /* CreditCardPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardPayment.swift; sourceTree = "<group>"; };
+		7E1110AF2A0E8F4B005E7DA4 /* PaypalPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaypalPayment.swift; sourceTree = "<group>"; };
+		7E1110B12A0E8FF3005E7DA4 /* OrderProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		7E1110672A0E8E8F005E7DA4 = {
 			isa = PBXGroup;
 			children = (
+				7E1110A82A0E8EE1005E7DA4 /* SOLID */,
 				7E1110722A0E8E90005E7DA4 /* ECommerce SOLID Principles Example */,
 				7E11108C2A0E8E91005E7DA4 /* ECommerce SOLID Principles ExampleTests */,
 				7E1110962A0E8E91005E7DA4 /* ECommerce SOLID Principles ExampleUITests */,
@@ -128,6 +141,19 @@
 				7E1110992A0E8E91005E7DA4 /* ECommerce_SOLID_Principles_ExampleUITestsLaunchTests.swift */,
 			);
 			path = "ECommerce SOLID Principles ExampleUITests";
+			sourceTree = "<group>";
+		};
+		7E1110A82A0E8EE1005E7DA4 /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				7E1110A62A0E8EA6005E7DA4 /* Product.swift */,
+				7E1110A92A0E8EF9005E7DA4 /* ShoppingCart.swift */,
+				7E1110AB2A0E8F20005E7DA4 /* PaymentMethod.swift */,
+				7E1110AD2A0E8F2E005E7DA4 /* CreditCardPayment.swift */,
+				7E1110AF2A0E8F4B005E7DA4 /* PaypalPayment.swift */,
+				7E1110B12A0E8FF3005E7DA4 /* OrderProcessor.swift */,
+			);
+			path = SOLID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +288,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E11107E2A0E8E90005E7DA4 /* ECommerce_SOLID_Principles_Example.xcdatamodeld in Sources */,
+				7E1110AA2A0E8EF9005E7DA4 /* ShoppingCart.swift in Sources */,
 				7E1110782A0E8E90005E7DA4 /* ViewController.swift in Sources */,
+				7E1110AC2A0E8F21005E7DA4 /* PaymentMethod.swift in Sources */,
+				7E1110A72A0E8EA6005E7DA4 /* Product.swift in Sources */,
+				7E1110AE2A0E8F2E005E7DA4 /* CreditCardPayment.swift in Sources */,
 				7E1110742A0E8E90005E7DA4 /* AppDelegate.swift in Sources */,
+				7E1110B02A0E8F4B005E7DA4 /* PaypalPayment.swift in Sources */,
 				7E1110762A0E8E90005E7DA4 /* SceneDelegate.swift in Sources */,
+				7E1110B22A0E8FF3005E7DA4 /* OrderProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
